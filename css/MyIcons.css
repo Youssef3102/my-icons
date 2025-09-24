@@ -1,8 +1,8 @@
 @font-face {
     font-family: "MyIcons";
-    src: url("./MyIcons.woff2?5cc3df213af6934b7bcd06eea28a54cc") format("woff2"),
-url("./MyIcons.woff?5cc3df213af6934b7bcd06eea28a54cc") format("woff"),
-url("./MyIcons.ttf?5cc3df213af6934b7bcd06eea28a54cc") format("truetype");
+    src: url("https://cdn.jsdelivr.net/gh/Youssef3102/my-icons@main/fonts/MyIcons.woff2") format("woff2"),
+         url("https://cdn.jsdelivr.net/gh/Youssef3102/my-icons@main/fonts/MyIcons.woff") format("woff"),
+         url("https://cdn.jsdelivr.net/gh/Youssef3102/my-icons@main/fonts/MyIcons.ttf") format("truetype");
 }
 
 .mi:before {
