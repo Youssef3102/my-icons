@@ -5,15 +5,22 @@
          url("https://cdn.jsdelivr.net/gh/Youssef3102/my-icons@main/fonts/MyIcons.ttf?5cc3df213af6934b7bcd06eea28a54cc") format("truetype");
 }
 
-.mi:before {
+.mi {
+    color: transparent;              /* hide the fill */
+    -webkit-text-stroke: 2px black;  /* stroke color & width */
+    -moz-text-stroke: 2px black;     /* Firefox partial support */
     font-family: MyIcons !important;
     font-style: normal;
     font-weight: normal !important;
     font-variant: normal;
-    text-transform: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+.mi-filled {
+    color: black;                     /* normal fill */
+    -webkit-text-stroke: 0;           /* remove outline */
 }
 
 .mi.mi-Quran:before {
