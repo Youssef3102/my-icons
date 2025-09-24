@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "MyIcons";
+    src: url("./MyIcons.woff2?5cc3df213af6934b7bcd06eea28a54cc") format("woff2"),
+url("./MyIcons.woff?5cc3df213af6934b7bcd06eea28a54cc") format("woff"),
+url("./MyIcons.ttf?5cc3df213af6934b7bcd06eea28a54cc") format("truetype");
+}
+
+.mi:before {
+    font-family: MyIcons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.mi.mi-Quran:before {
+    content: "\f101";
+}
+.mi.mi-Home:before {
+    content: "\f102";
+}
+.mi.mi-Gear:before {
+    content: "\f103";
+}
