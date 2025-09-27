@@ -1,8 +1,8 @@
 @font-face {
     font-family: "MyIcons";
-    src: url("https://cdn.jsdelivr.net/gh/Youssef3102/my-icons@main/fonts/MyIcons.woff2?5cc3df213af6934b7bcd06eea28a54cc") format("woff2"),
-         url("https://cdn.jsdelivr.net/gh/Youssef3102/my-icons@main/fonts/MyIcons.woff?5cc3df213af6934b7bcd06eea28a54c") format("woff"),
-         url("https://cdn.jsdelivr.net/gh/Youssef3102/my-icons@main/fonts/MyIcons.ttf?5cc3df213af6934b7bcd06eea28a54cc") format("truetype");
+    src: url("https://cdn.jsdelivr.net/gh/Youssef3102/my-icons/fonts/MyIcons.woff2?5cc3df213af6934b7bcd06eea28a54cc") format("woff2"),
+         url("https://cdn.jsdelivr.net/gh/Youssef3102/my-icons/fonts/MyIcons.woff?5cc3df213af6934b7bcd06eea28a54c") format("woff"),
+         url("https://cdn.jsdelivr.net/gh/Youssef3102/my-icons/fonts/MyIcons.ttf?5cc3df213af6934b7bcd06eea28a54cc") format("truetype");
 }
 
 /* Base icon style: stroke version */
