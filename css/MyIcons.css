@@ -12,6 +12,7 @@
   color: transparent;           /* fill transparent for stroke */
   -webkit-text-stroke: 2px black; /* stroke color and width */
   display: inline-block;        /* ensures pseudo-element renders */
+  font-style: normal !important;
 }
 
 /* Filled version */
