@@ -5,30 +5,22 @@
          url("https://cdn.jsdelivr.net/gh/Youssef3102/my-icons@main/fonts/MyIcons.ttf?5cc3df213af6934b7bcd06eea28a54cc") format("truetype");
 }
 
-.mi {
-    color: transparent;              /* hide the fill */
-    -webkit-text-stroke: 2px black;  /* stroke color & width */
-    -moz-text-stroke: 2px black;     /* Firefox partial support */
-    font-family: MyIcons !important;
-    font-style: normal;
-    font-weight: normal !important;
-    font-variant: normal;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+/* Base icon style: stroke version */
+.mi::before {
+  font-family: "QuranIconFont";
+  font-size: 32px;
+  color: transparent;           /* fill transparent for stroke */
+  -webkit-text-stroke: 2px black; /* stroke color and width */
+  display: inline-block;        /* ensures pseudo-element renders */
 }
 
-.mi-filled {
-    color: black;                     /* normal fill */
-    -webkit-text-stroke: 0;           /* remove outline */
+/* Filled version */
+.mi.mi-filled::before {
+  /* -webkit-text-stroke: 0; remove stroke */
+  color: black;            /* solid fill color */
 }
 
-.mi.mi-Quran:before {
-    content: "\f101";
-}
-.mi.mi-Home:before {
-    content: "\f102";
-}
-.mi.mi-Gear:before {
-    content: "\f103";
-}
+/* Individual icons */
+.mi-quran::before { content: "\E001"; }
+.mi-home::before  { content: "\E003"; }
+.mi-gear::before  { content: "\E002"; }
