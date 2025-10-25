@@ -26,3 +26,4 @@
 .mi-gear::before  { content: "\E002"; }
 .mi-home::before  { content: "\E003"; }
 .mi-history::before  { content: "\E004"; }
+.mi-logout::before  { content: "\E005"; }
